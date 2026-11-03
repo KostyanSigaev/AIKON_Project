@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/aikon_list_padding_horizontal"
+    android:paddingEnd="@dimen/aikon_list_padding_horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/aikon_list_item_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:defaultFocusHighlightEnabled="false"
+    android:foreground="@drawable/aikon_list_item_focus_overlay">
+
+    <TextView
+        android:id="@+id/aikon_context_item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="?attr/aikonTextPrimaryColor"
+        android:textSize="@dimen/aikon_list_text_size_primary"
+        tools:text="Пункт меню"/>
+
+    <ImageView
+        android:id="@+id/aikon_context_item_arrow"
+        android:layout_width="@dimen/aikon_context_menu_arrow_size"
+        android:layout_height="@dimen/aikon_context_menu_arrow_size"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/aikon_arrow_right"
+        android:visibility="gone"
+        android:contentDescription="@null"/>
+
+</LinearLayout>

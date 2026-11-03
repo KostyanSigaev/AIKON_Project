@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Атрибуты темы AIKON -->
+    <attr name="aikonBarBackground" format="color"/>
+    <attr name="aikonBarButtonTextColor" format="color"/>
+    <attr name="aikonBarButtonPressedColor" format="color"/>
+    <attr name="aikonBarDividerColor" format="color"/>
+
+    <attr name="aikonTextPrimaryColor" format="color"/>
+    <attr name="aikonTextSecondaryColor" format="color"/>
+
+    <declare-styleable name="AikonSoftkeyBar">
+        <attr name="aikonBarMode" format="enum">
+            <enum name="twoButton" value="0"/>
+            <enum name="threeButton" value="1"/>
+        </attr>
+        <attr name="aikonLeftText" format="string"/>
+        <attr name="aikonCenterText" format="string"/>
+        <attr name="aikonRightText" format="string"/>
+    </declare-styleable>
+
+    <attr name="aikonListItemPressedColor" format="color"/>
+</resources>

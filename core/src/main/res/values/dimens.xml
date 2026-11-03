@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aikon_bar_height">42dp</dimen>
+    <dimen name="aikon_bar_text_size">14sp</dimen>
+    <dimen name="aikon_bar_divider_width">1px</dimen>
+
+    <dimen name="aikon_home_clock_text_size">56sp</dimen>
+    <dimen name="aikon_home_date_text_size">16sp</dimen>
+
+    <dimen name="aikon_list_simple_height">40dp</dimen>
+    <dimen name="aikon_list_full_height">56dp</dimen>
+    <dimen name="aikon_list_text_size_primary">15sp</dimen>
+    <dimen name="aikon_list_text_size_secondary">12sp</dimen>
+    <dimen name="aikon_list_padding_horizontal">12dp</dimen>
+
+    <dimen name="aikon_loading_text_size">13sp</dimen>
+
+    <dimen name="aikon_context_menu_margin">6dp</dimen>
+    <dimen name="aikon_context_menu_min_width">170dp</dimen>
+    <dimen name="aikon_context_menu_arrow_size">12dp</dimen>
+</resources>

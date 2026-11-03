@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AIKON Launcher</string>
+
+    <string name="favorites_settings">Настройки</string>
+    <string name="favorites_camera">Камера</string>
+    <string name="favorites_calculator">Калькулятор</string>
+
+    <string name="app_not_found">Приложение не найдено</string>
+    <string name="menu_all_apps">Все приложения</string>
+
+    <string name="context_menu_open">Открыть</string>
+    <string name="context_menu_add_favorite">Добавить в избранные</string>
+    <string name="context_menu_about">О приложении</string>
+    <string name="context_menu_clear_cache_open">Очистить кэш и открыть</string>
+    <string name="context_menu_uninstall">Удалить</string>
+
+    <string name="context_menu_remove_favorite">Убрать из избранных</string>
+    <string name="all_apps_count_format">Всего приложений: %d</string>
+</resources>

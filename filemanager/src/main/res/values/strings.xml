@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Файлы</string>
+
+    <string name="fm_parent_dir">На уровень выше</string>
+    <string name="fm_folder">Папка</string>
+    <string name="fm_empty_folder">Папка пуста</string>
+    <string name="fm_cannot_read">Нет доступа к этому каталогу</string>
+    <string name="fm_no_access">Для работы нужен доступ к файлам. Нажмите «Меню», чтобы выдать разрешение.</string>
+
+    <string name="fm_menu_open">Открыть</string>
+    <string name="fm_menu_open_with">Открыть с помощью</string>
+    <string name="fm_menu_copy_to">Копировать в...</string>
+    <string name="fm_menu_move">Переместить</string>
+    <string name="fm_menu_send">Отправить</string>
+    <string name="fm_menu_create_folder">Создать папку</string>
+    <string name="fm_menu_properties">Свойства</string>
+    <string name="fm_menu_delete">Удалить</string>
+    <string name="fm_menu_here">Сюда</string>
+    <string name="fm_menu_cancel">Отмена</string>
+
+    <string name="fm_btn_delete">Удалить</string>
+    <string name="fm_btn_cancel">Отмена</string>
+    <string name="fm_btn_create">Создать</string>
+    <string name="fm_btn_ok">OK</string>
+
+    <string name="fm_delete_title">Удаление</string>
+    <string name="fm_delete_message">Удалить «%1$s»? Это действие нельзя отменить.</string>
+    <string name="fm_new_folder_title">Новая папка</string>
+    <string name="fm_new_folder_hint">Имя папки</string>
+
+    <string name="fm_chooser_open">Открыть с помощью</string>
+    <string name="fm_chooser_send">Отправить</string>
+
+    <string name="fm_toast_no_app">Нет приложения для открытия этого файла</string>
+    <string name="fm_toast_copied">Скопировано</string>
+    <string name="fm_toast_moved">Перемещено</string>
+    <string name="fm_toast_deleted">Удалено</string>
+    <string name="fm_toast_error">Ошибка: %1$s</string>
+    <string name="fm_toast_already_here">Файл уже находится в этой папке</string>
+    <string name="fm_toast_invalid_name">Недопустимое имя</string>
+    <string name="fm_toast_exists">Такая папка или файл уже существует</string>
+    <string name="fm_toast_mkdir_failed">Не удалось создать папку</string>
+    <string name="fm_toast_into_itself">Нельзя поместить папку в саму себя</string>
+
+    <string name="fm_prop_title">Свойства</string>
+    <string name="fm_prop_name">Имя: %1$s</string>
+    <string name="fm_prop_path">Путь: %1$s</string>
+    <string name="fm_prop_type">Тип: %1$s</string>
+    <string name="fm_prop_size">Размер: %1$s</string>
+    <string name="fm_prop_contents">Содержимое: файлов — %1$d, папок — %2$d</string>
+    <string name="fm_prop_modified">Изменён: %1$s</string>
+    <string name="fm_prop_created">Создан: %1$s</string>
+    <string name="fm_prop_access">Доступ: %1$s</string>
+    <string name="fm_access_rw">чтение и запись</string>
+    <string name="fm_access_r">только чтение</string>
+    <string name="fm_access_none">нет</string>
+    <string name="fm_type_folder">Папка</string>
+    <string name="fm_type_unknown">Неизвестный тип</string>
+</resources>

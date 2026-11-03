@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AIKON Core</string>
+
+    <string name="aikon_btn_menu">Меню</string>
+    <string name="aikon_btn_back">Назад</string>
+    <string name="aikon_btn_lock">Блокировка</string>
+    <string name="aikon_btn_favorites">Избранные</string>
+
+    <string name="aikon_loading_please_wait">Пожалуйста, подождите…</string>
+
+    <string name="aikon_context_menu_back">‹ Назад</string>
+
+    <string name="aikon_lock_admin_explanation">Для блокировки экрана необходимо предоставить права администратора устройства</string>
+</resources>

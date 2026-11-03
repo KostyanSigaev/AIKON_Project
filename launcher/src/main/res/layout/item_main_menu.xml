@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aikon.launcher.mainmenu.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aikon_list_item_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:defaultFocusHighlightEnabled="false"
+    android:foreground="@drawable/aikon_list_item_focus_overlay">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="@dimen/aikon_menu_icon_size"
+            android:layout_height="@dimen/aikon_menu_icon_size"
+            android:contentDescription="@null"
+            tools:src="@android:drawable/ic_menu_preferences"/>
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="?attr/aikonTextPrimaryColor"
+            android:textSize="@dimen/aikon_menu_title_text_size"
+            tools:text="Настройки"/>
+    </LinearLayout>
+</com.aikon.launcher.mainmenu.SquareFrameLayout>
